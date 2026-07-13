@@ -53,6 +53,7 @@ antigens and the protease are present.
 ├── slides/     3-minute presentation deck — English (HTML, self-contained)
 ├── figures/    all figures (PNG)
 ├── data/       scored matrices + full logic-gate rankings (CSV / Parquet)
+├── code/       analysis scripts (extracted from execution lineage) — see code/README.md
 ├── docs/       methods.md — data sources, scoring formulas, thresholds (English)
 └── archive/    early pilot dashboard (superseded — see archive/README.md)
 ```
