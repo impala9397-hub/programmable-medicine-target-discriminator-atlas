@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "Programmable Medicine — Target Discriminator Atlas"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - given-names: Jongwon
+    family-names: Im
+    alias: impala9397-hub
+repository-code: "https://github.com/impala9397-hub/programmable-medicine-target-discriminator-atlas"
+abstract: >-
+  A logic-gating target-discovery pipeline for triple-negative breast cancer.
+  Cell-surface proteins and extracellular proteases are scored on independent
+  axes — organ specificity, interpatient coverage, and intratumoral coverage —
+  and then composed into 2-to-3-input Boolean gates of the form
+  (A OR B) AND protease, which widen malignant-cell coverage with an OR while a
+  protease AND restores organ specificity. The recommended discriminator is
+  (EPCAM OR VTCN1) AND MMP11. The logic is modality-independent and can be
+  realized as a logic-gated CAR-T cell or as a protease-activated pro-antibody.
+keywords:
+  - target discovery
+  - logic gating
+  - synthetic biology
+  - CAR-T
+  - triple-negative breast cancer
+  - surfaceome
+  - protease
+  - single-cell
+license: "CC-BY-4.0"
+date-released: "2026-07-13"

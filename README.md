@@ -11,6 +11,11 @@ This pilot scores cell-surface proteins and extracellular proteases on independe
 then composes them into 2–3-input Boolean logic gates — `(A OR B) AND protease` — that
 widen tumor coverage with an OR while a protease AND restores organ specificity.
 
+> Solo project, built over a single weekend in July 2026. Everything here — the scoring axes, the
+> single-cell co-expression work, the gate synthesis, the report, and the deck — came out of that
+> weekend. Treat it as a well-documented pilot, not a finished study; the
+> [limitations](docs/methods.md#limitations) are stated plainly.
+
 ![Problem](figures/problem_illustration_en.png)
 
 ---
@@ -103,3 +108,30 @@ metabolites, physical state (pH/hypoxia), intracellular RNA, and neoantigens.
 
 > **Scope.** This is a pilot on two grid cells for one tumor type. The framework generalizes to the
 > full surfaceome/degradome and to other tumor types. See `docs/methods.md` for limitations.
+
+Everything in `data/` is a **derived summary statistic** — scores, ranks, per-tissue medians, and
+single-cell detection fractions. No raw or individual-level data is redistributed here. Full
+provenance, terms, and the acknowledgements to carry forward are in **[DATA.md](DATA.md)**.
+
+---
+
+## License
+
+- **Code** (`code/`) — MIT.
+- **Text, figures, and derived data** (`README.md`, `docs/`, `report/`, `slides/`, `figures/`,
+  `data/`) — [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+See [LICENSE](LICENSE). Third-party data sources keep their own terms — see [DATA.md](DATA.md).
+
+## Citation
+
+```bibtex
+@software{im_programmable_medicine_2026,
+  author  = {Im, Jongwon},
+  title   = {Programmable Medicine --- Target Discriminator Atlas},
+  year    = {2026},
+  url     = {https://github.com/impala9397-hub/programmable-medicine-target-discriminator-atlas}
+}
+```
+
+Machine-readable metadata: [CITATION.cff](CITATION.cff).
