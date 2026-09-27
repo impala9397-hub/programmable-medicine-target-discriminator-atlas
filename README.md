@@ -11,9 +11,11 @@ This pilot scores cell-surface proteins and extracellular proteases on independe
 then composes them into 2–3-input Boolean logic gates — `(A OR B) AND protease` — that
 widen tumor coverage with an OR while a protease AND restores organ specificity.
 
-> Solo project, built over a single weekend in July 2026. Everything here — the scoring axes, the
-> single-cell co-expression work, the gate synthesis, the report, and the deck — came out of that
-> weekend. Treat it as a well-documented pilot, not a finished study; the
+> Solo project, built during [**Built with Claude: Life Sciences**](https://cerebralvalley.ai/e/built-with-claude-life-sciences)
+> — an online hackathon run by Anthropic and Cerebral Valley in partnership with Gladstone
+> Institutes, 7–14 July 2026. Everything here — the scoring axes, the single-cell co-expression
+> work, the gate synthesis, the report, and the deck — was produced in that week by one person.
+> Treat it as a well-documented pilot, not a finished study; the
 > [limitations](docs/methods.md#limitations) are stated plainly.
 
 ![Problem](figures/problem_illustration_en.png)
